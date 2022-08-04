@@ -29,7 +29,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url("https://content.codecademy.com/programs/react/jammming/background_photo_desktop.jpg?_gl=1*1ob1yjf*_ga*MTU5OTE3NzU0NS4xNjE0OTQ3NTgw*_ga_3LRZM6TM9L*MTY1OTQ0MDMwMC43MS4wLjE2NTk0NDAzMjcuMzM.");
+  background-image: url('https://content.codecademy.com/programs/react/jammming/background_photo_desktop.jpg?_gl=1*1ufxfyp*_ga*MTU5OTE3NzU0NS4xNjE0OTQ3NTgw*_ga_3LRZM6TM9L*MTY1OTQ1MzQ5NS43Mi4wLjE2NTk0NTM0OTUuNjA.');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
