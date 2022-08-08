@@ -1,6 +1,19 @@
 import './App.css';
 import {SearchBar} from '../SearchBar/SearchBar.js'
-function App() {
+import { SearchResults } from '../SearchResults/SearchResults';
+import { Playlist } from '../Playlist/Playlist';
+import React from 'react';
+
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchResults: [{name: 'name1', artist: 'artiste1', album: 'album1', id: 1}, {name: 'name2', artist: 'artiste2', album: 'album2', id: 2}, {name: 'name3', artist: 'artiste3', album: 'album3', id: 3}]
+    }
+  }
+  render() {
+
   
     return (
       <div>
@@ -8,16 +21,18 @@ function App() {
     <div className="App">
      <SearchBar />
       <div className="App-playlist">
-      
+      <SearchResults searchResults={this.state.searchResults} />
+      <Playlist />
       </div>
     </div>
-  </div>
-    );
+    </div>
 
-  }
-    
   
-    
+    );
+  }
+}
+
+ 
 
   
   
